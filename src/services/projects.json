@@ -1,0 +1,20 @@
+[
+  {
+    "type": "front",
+    "site": "https://react-entrega-s2-kenzie-hub-luishenriquemota.vercel.app/",
+    "git": "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-luishenriquemota",
+    "image": "../assets/projects-images/KenzieHub.png",
+    "title": "Website - KenzieHub",
+    "description": "gerenciador de tecnologias aprendidas, nela podemos colocar o que ja aprendemos e o nivel de conhecimento que temos sobre ela.",
+    "techs": ["JavaScript", "React", "CSS", "HTML", "Git"]
+  },
+  {
+    "type": "front",
+    "site": "https://react-entrega-s2-kenzie-hub-luishenriquemota.vercel.app/",
+    "git": "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-luishenriquemota",
+    "image": "../assets/projects-images/KenzieHub.png",
+    "title": "Website - KenzieHub",
+    "description": "gerenciador de tecnologias aprendidas, nela podemos colocar o que ja aprendemos e o nivel de conhecimento que temos sobre ela.",
+    "techs": ["JavaScript", "React", "CSS", "HTML", "Git"]
+  }
+]
