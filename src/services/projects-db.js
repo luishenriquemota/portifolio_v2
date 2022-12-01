@@ -6,37 +6,7 @@ import api_logo from "../assets/projects-images/api.png";
 
 export const projects = [
   {
-    type: "front",
-    site: "https://react-entrega-s2-kenzie-hub-luishenriquemota.vercel.app/",
-    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-luishenriquemota",
-    image: kenziehub,
-    title: "KenzieHub",
-    description:
-      "gerenciador de tecnologias aprendidas, nela podemos colocar o que ja aprendemos e o nivel de conhecimento que temos sobre ela.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
-  },
-  {
-    type: "front",
-    site: "https://react-entrega-s1-nu-kenzie-luishenriquemota.vercel.app/",
-    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-luishenriquemota",
-    image: nukenzie,
-    title: "NuKenzie",
-    description:
-      "O site é um gerenciador de despesas, que facilita o planejamento dos nossos gastos no dia a dia. ",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
-  },
-  {
-    type: "front",
-    site: "https://react-entrega-s1-hamburgueria-da-kenzie-luishe-luishenriquemota.vercel.app/",
-    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-luishenriquemota",
-    image: hamburgueriaKenzie,
-    title: "Hamburgueria",
-    description:
-      "Um site que simula uma hamburgueria, nele podemos adicionar o produto ao carrinho e buscar produto pelo nome.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
-  },
-  {
-    type: "front",
+    type: "Front-End",
     site: "https://capstone-m3-mu.vercel.app/",
     git: "https://github.com/luishenriquemota/capstone-m3",
     image: ecoleta,
@@ -46,15 +16,45 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    type: "back",
-    git: "https://github.com/luishenriquemota/Easy-iFinance",
-    image: api_logo,
-    title: "Easy iFinance",
-    // description:
+    type: "Front-End",
+    site: "https://react-entrega-s2-kenzie-hub-luishenriquemota.vercel.app/",
+    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-luishenriquemota",
+    image: kenziehub,
+    title: "KenzieHub",
+    description:
+      "gerenciador de tecnologias aprendidas, nela podemos colocar o que ja aprendemos e o nivel de conhecimento que temos sobre ela.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    type: "back",
+    type: "Front-End",
+    site: "https://react-entrega-s1-nu-kenzie-luishenriquemota.vercel.app/",
+    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-luishenriquemota",
+    image: nukenzie,
+    title: "NuKenzie",
+    description:
+      "O site é um gerenciador de despesas, que facilita o planejamento dos nossos gastos no dia a dia. ",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    type: "Front-End",
+    site: "https://react-entrega-s1-hamburgueria-da-kenzie-luishe-luishenriquemota.vercel.app/",
+    git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-luishenriquemota",
+    image: hamburgueriaKenzie,
+    title: "Hamburgueria",
+    description:
+      "Um site que simula uma hamburgueria, nele podemos adicionar o produto ao carrinho e buscar produto pelo nome.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    type: "Back-End",
+    git: "https://github.com/luishenriquemota/Easy-iFinance",
+    image: api_logo,
+    title: "Easy iFinance",
+    description: "API Financeiro",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    type: "Back-End",
     git: "https://github.com/victoriavianx/thinkwiki",
     image: api_logo,
     title: "Think Wiki",

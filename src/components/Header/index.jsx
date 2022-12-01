@@ -9,7 +9,9 @@ export const Header = () => {
   return (
     <StyledHeader>
       <nav className="container">
-        <img src={image} alt="" />
+        <a href="#top">
+          <img src={image} alt="" />
+        </a>
         <ul>
           <li>
             <a href="#about">Sobre</a>
@@ -19,6 +21,9 @@ export const Header = () => {
           </li>
           <li>
             <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
           </li>
         </ul>
         <HiMenu className="menu" onClick={() => setOpenModal(true)} />

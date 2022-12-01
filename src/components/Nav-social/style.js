@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const StyledSocial = styled.nav`
-  margin-top: 500px;
-  /* margin-left: 90vw; */
-  padding-left: 30px;
-  display: flex;
-  flex-direction: column;
   position: fixed;
+  /* position: absolute; */
+  /* z-index: -1; */
+  margin-top: 650px;
+  padding-left: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: fixed; */
 
   ul {
     display: flex;
@@ -17,7 +19,7 @@ export const StyledSocial = styled.nav`
       content: "";
       width: 1px;
       height: 150px;
-      background-color: white;
+      background-color: red;
     }
   }
 

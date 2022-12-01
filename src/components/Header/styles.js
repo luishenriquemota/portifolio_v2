@@ -44,7 +44,7 @@ export const StyledHeader = styled.header`
     }
 
     nav > ul {
-      width: 20rem;
+      width: 25rem;
       display: flex;
       justify-content: space-between;
     }
