@@ -10,11 +10,16 @@ export const ProjectCard = (props) => {
       <img src={image} alt={name} />
 
       <div className="content">
-        <h3>{name}</h3>
+        <h3>
+          <span>Front-End</span>
+          {name}
+        </h3>
         <p>{description}</p>
         <ul>
           {techs.map((item) => (
-            <li>{item}</li>
+            <li>
+              <span>{item}</span>
+            </li>
           ))}
         </ul>
         <div className="links">

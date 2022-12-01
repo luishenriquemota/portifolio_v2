@@ -4,14 +4,13 @@ export const StyledTechs = styled.section`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
 
   h2 {
     font-size: max(30px, 2.2vw);
-    border-bottom: 1px solid var(--verde2);
+    border-bottom: 1px solid var(--green1);
     margin-bottom: 60px;
     padding-bottom: 15px;
-    margin-bottom: 100px;
+    padding-top: 100px;
   }
 
   ul {

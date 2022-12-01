@@ -5,14 +5,14 @@ export const StyledProjects = styled.section`
 
   h2 {
     font-size: max(30px, 2.2vw);
-    border-bottom: 1px solid var(--verde2);
+    border-bottom: 1px solid var(--green1);
     margin-bottom: 60px;
+    padding-bottom: 15px;
     padding-top: 100px;
   }
 
   @media (min-width: 768px) {
-    .teste {
-      min-height: 100%;
+    .carousel {
     }
   }
 `;

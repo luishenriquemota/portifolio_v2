@@ -14,22 +14,18 @@ html{
 }
 
 :root{
-  --brand1: #00111c
-  --verde1: #63E8DF;
-  --verde2: #17b794;
-	--cinza1: #252f3e;
-	--cinza2:  #293342;
-	--cinza3: #6a717b;
-}
+  --whiteFixed: #efefef;
+  --brand1: #00111c;
+  --green1: #17b794;
+	--grey1: #9CA3AF;
 
-body{
-  font-family: "Inter", sans-serif;
 }
-
 
 .App{
   min-height: 100vh;
-  color: #FFFFFF;
+  color: var(--whiteFixed);
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .container{

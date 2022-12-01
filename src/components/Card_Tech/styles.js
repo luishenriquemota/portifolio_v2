@@ -10,10 +10,10 @@ export const StyledCardTech = styled.div`
   background-color: black;
   border-radius: 15px;
   background-image: linear-gradient(
-    138deg,
-    #000000 0%,
-    #262626 52%,
-    #000000 90%
+    148deg,
+    #1d2d44 50%,
+    #f0ebd8 50%,
+    #1d2d44 50%
   );
 
   img {
