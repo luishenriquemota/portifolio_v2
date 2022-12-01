@@ -11,6 +11,10 @@ export const StyledHeader = styled.header`
   box-shadow: 0px 10px 12px -10px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   z-index: 1;
 
+  img {
+    width: 50px;
+  }
+
   .menu {
     font-size: 35px;
   }
@@ -43,6 +47,13 @@ export const StyledHeader = styled.header`
       width: 20rem;
       display: flex;
       justify-content: space-between;
+    }
+    nav > ul > li > a {
+      text-decoration: none;
+      color: var(--whiteFixed);
+      :hover {
+        color: var(--green1);
+      }
     }
   }
 `;

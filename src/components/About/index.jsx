@@ -18,9 +18,9 @@ export const About = () => {
             atualizado.
           </p>
           <p>
-            Sempre gostei de tudo que envolve tecnologia, sempre quis entender
-            como era que as ferramentas que eu utilizava no computador
-            funcionavam, agora busco a oportunidade de trabalhar criando-as.
+            Sempre gostei de tudo que envolve tecnologia, queria entender como
+            as ferramentas que eu utilizava no computador funcionavam, agora
+            busco a oportunidade de trabalhar criando-as.
           </p>
         </div>
         <img src={image} alt="" />

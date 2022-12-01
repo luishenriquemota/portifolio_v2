@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const StyledProjectCard = styled.div`
   width: 100%;
   position: relative;
-  padding-top: 70%;
+  padding-top: 80%;
   background-image: url(${(props) => props.image});
   background-size: 100% 100%;
   margin: 0 5px;
+  border-radius: 6px;
 
   img {
     display: none;
@@ -18,42 +19,60 @@ export const StyledProjectCard = styled.div`
     height: 100%;
     top: 0;
     left: 0;
+    padding: 5vw 15px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, #000000 100%);
-    padding: 15px;
-    border-radius: 4px;
+    justify-content: space-between;
+    background: linear-gradient(
+      180deg,
+      rgba(6, 8, 15, 0.85) 100%,
+      #000000 100%
+    );
   }
+
   .content > h3 {
     font-size: min(30px, 4vw);
+    display: flex;
+    flex-direction: column;
+  }
+  .content > h3 > span {
+    font-size: 2vw;
+    color: var(--green1);
   }
   .content > p {
     font-size: min(20px, 2.9vw);
-    margin-bottom: 10px;
+    line-height: 3.5vw;
+    color: var(--grey1);
   }
   .content > ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
+    line-height: 2.5vw;
   }
-  .content > ul > li {
+  .content > ul > li > span {
     font-size: min(15px, 2.2vw);
   }
 
   .links {
     display: flex;
-    gap: 50px;
+    gap: 15vw;
     justify-content: center;
   }
   .links > svg {
-    color: red;
     font-size: min(30px, 6vw);
+    color: var(--grey1);
+    :hover {
+      color: var(--green1);
+    }
   }
 
   @media (min-width: 768px) {
     background: none;
-    padding-top: 40%;
+    padding-top: 30%;
+    margin: 0 20px;
+    min-height: 200px;
 
     img {
       display: flex;
@@ -73,25 +92,38 @@ export const StyledProjectCard = styled.div`
       justify-content: space-between;
     }
     .content > h3 {
-      font-size: 3vw;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .content > h3 > span {
+      font-size: 1vw;
+      text-align: end;
     }
 
     .content > p {
-      font-size: min(18px, 1.2vw);
-      /* font-size: 1.2vw; */
       width: 40vw;
-      text-align: end;
-      background-color: var(--cinza2);
-      padding: 10px 25px;
+      background-color: #1d2d44;
       border-radius: 4px;
+      margin: 0;
+      padding: 10px;
+      font-size: min(18px, 1.2vw);
+      line-height: 1.5vw;
+      text-align: end;
+      color: var(--grey1);
     }
 
     .content > ul {
-      width: 40vw;
+      width: 25vw;
       justify-content: flex-end;
+      line-height: 1.5vw;
     }
-    .content > ul > li {
-      font-size: 0.92vw;
+    .content > ul > li > span {
+      font-size: 1vw;
+      color: var(--grey1);
+    }
+
+    .links {
+      gap: 5vw;
     }
   }
 `;

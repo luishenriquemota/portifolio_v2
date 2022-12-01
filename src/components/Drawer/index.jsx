@@ -4,10 +4,10 @@ import { Global } from "@emotion/react";
 import { styled } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { grey } from "@mui/material/colors";
-import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import { UseOpenModal } from "../../providers/ProviderOpenModal";
+import { StyledMenu } from "./styles";
 
 const drawerBleeding = 0;
 
@@ -39,7 +39,7 @@ function SwipeableEdgeDrawer(props) {
         styles={{
           ".MuiDrawer-root > .MuiPaper-root": {
             height: `100%`,
-            width: `20%`,
+            width: `40%`,
             overflow: "visible",
           },
         }}
@@ -60,7 +60,30 @@ function SwipeableEdgeDrawer(props) {
           keepMounted: true,
         }}
       >
-        <div>olaaa</div>
+        <StyledMenu>
+          <ul>
+            <li>
+              <a onClick={() => setOpenModal(false)} href="#about">
+                Sobre
+              </a>
+            </li>
+            <li>
+              <a onClick={() => setOpenModal(false)} href="#technologies">
+                Tecnologias
+              </a>
+            </li>
+            <li>
+              <a onClick={() => setOpenModal(false)} href="#projects">
+                Projetos
+              </a>
+            </li>
+            <li>
+              <a onClick={() => setOpenModal(false)} href="#contact">
+                Contato
+              </a>
+            </li>
+          </ul>
+        </StyledMenu>
       </SwipeableDrawer>
     </Root>
   );

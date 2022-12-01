@@ -1,17 +1,25 @@
 import { HiMenu } from "react-icons/hi";
 import { UseOpenModal } from "../../providers/ProviderOpenModal";
 import { StyledHeader } from "./styles";
+import image from "../../assets/Group 1.svg";
 
 export const Header = () => {
   const { setOpenModal } = UseOpenModal();
+
   return (
     <StyledHeader>
       <nav className="container">
-        <span>LH</span>
+        <img src={image} alt="" />
         <ul>
-          <a href="#about">Sobre</a>
-          <a href="#techs">Tecnologias</a>
-          <a href="#projects">Projetos</a>
+          <li>
+            <a href="#about">Sobre</a>
+          </li>
+          <li>
+            <a href="#technologies">Tecnologias</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
         </ul>
         <HiMenu className="menu" onClick={() => setOpenModal(true)} />
       </nav>

@@ -5,7 +5,7 @@ export const Presentation = () => {
   return (
     <>
       <ParticlesComponent />
-      <StyledPresentation className="container medium">
+      <StyledPresentation id="top" className="container medium">
         <p>Olá, meu nome é</p>
         <h1>Luis Henrique,</h1>
         <h1> Sou Desenvolvedor Full-Stack.</h1>

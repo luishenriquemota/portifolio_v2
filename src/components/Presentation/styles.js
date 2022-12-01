@@ -5,22 +5,24 @@ export const StyledPresentation = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 40px;
 
   h1 {
     font-size: min(60px, 4.8vw);
+    color: var(--whiteFixed);
   }
 
   p:first-of-type {
+    padding-top: 60px;
+    margin: 0;
     font-size: min(30px, 3.2vw);
-    color: var(--verde2);
+    color: var(--green1);
     font-weight: bold;
   }
   p {
     font-size: min(22px, 3.2vw);
     line-height: 24px;
     margin-top: 10px;
-    color: #9ca3af;
+    color: var(--grey1);
   }
 
   button {
@@ -28,15 +30,15 @@ export const StyledPresentation = styled.section`
     height: 30px;
     font-weight: 600;
     background-color: transparent;
-    color: var(--verde2);
-    border: 1px solid var(--verde2);
+    color: var(--green1);
+    border: 1px solid var(--green1);
     border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
 
     :hover {
-      background-color: var(--verde2);
-      color: #fff;
+      background-color: var(--green1);
+      color: #ffffff;
     }
   }
 
@@ -44,6 +46,7 @@ export const StyledPresentation = styled.section`
     min-height: calc(100vh + 60px);
 
     p {
+      line-height: 30px;
       width: min(90%, 850px);
     }
 
