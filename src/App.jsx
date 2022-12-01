@@ -5,6 +5,8 @@ import { Header } from "./components/Header";
 import { Presentation } from "./components/Presentation";
 import { Projects } from "./components/Projects";
 import { Technologies } from "./components/Technologies";
+import { NavSocial } from "./components/Nav-social";
+import { ParticlesComponent } from "./components/particles";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Projects />
       <SwipeableEdgeDrawer />
       <Footer />
+      <NavSocial />
+      <ParticlesComponent />
     </div>
   );
 }

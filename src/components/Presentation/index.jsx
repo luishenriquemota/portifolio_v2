@@ -4,7 +4,7 @@ import { StyledPresentation } from "./styles";
 export const Presentation = () => {
   return (
     <>
-      <ParticlesComponent />
+      {/* <ParticlesComponent /> */}
       <StyledPresentation id="top" className="container medium">
         <p>Olá, meu nome é</p>
         <h1>Luis Henrique,</h1>
@@ -14,7 +14,12 @@ export const Presentation = () => {
           e de me desafiar, atualmente estou em busca da minha primeira vaga
           como desenvolvedor.
         </p>
-        <button>Baixar Curriculo</button>
+        <a
+          href="https://drive.google.com/u/0/uc?id=1Bq3q3eaoKlv25pOwaKd3dGp2ykPEM7xS&export=download"
+          download="curriculo"
+        >
+          Baixar Curriculo
+        </a>
       </StyledPresentation>
     </>
   );

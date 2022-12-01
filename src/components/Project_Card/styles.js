@@ -63,6 +63,7 @@ export const StyledProjectCard = styled.div`
   .links > svg {
     font-size: min(30px, 6vw);
     color: var(--grey1);
+    cursor: pointer;
     :hover {
       color: var(--green1);
     }
@@ -82,7 +83,6 @@ export const StyledProjectCard = styled.div`
       top: 0;
       left: 0;
       border-radius: 4px;
-      z-index: -1;
     }
 
     .content {

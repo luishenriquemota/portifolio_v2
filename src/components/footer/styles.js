@@ -1,13 +1,25 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  height: 60px;
+  min-height: 60px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding: 20px;
 
-  svg {
-    font-size: 22px;
+  div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  div > svg {
+    font-size: 25px;
+    cursor: pointer;
+    :hover {
+      color: var(--green1);
+    }
   }
 `;

@@ -3,7 +3,7 @@ import { TbExternalLink } from "react-icons/tb";
 import { AiFillGithub } from "react-icons/ai";
 
 export const ProjectCard = (props) => {
-  const { image, name, description, techs, git, link } = props;
+  const { image, name, description, techs, git, link, type } = props;
 
   return (
     <StyledProjectCard image={image}>
@@ -11,20 +11,20 @@ export const ProjectCard = (props) => {
 
       <div className="content">
         <h3>
-          <span>Front-End</span>
+          <span>{type}</span>
           {name}
         </h3>
         <p>{description}</p>
         <ul>
-          {techs.map((item) => (
-            <li>
+          {techs.map((item, index) => (
+            <li key={index}>
               <span>{item}</span>
             </li>
           ))}
         </ul>
         <div className="links">
-          <AiFillGithub onClick={() => console.log(git)} />
-          <TbExternalLink onClick={() => console.log(link)} />
+          <AiFillGithub onClick={() => window.open(git, "_blank")} />
+          <TbExternalLink onClick={() => window.open(link, "_blank")} />
         </div>
       </div>
     </StyledProjectCard>

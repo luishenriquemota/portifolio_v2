@@ -13,7 +13,6 @@ export const NavSocial = () => {
           <FiLinkedin />
         </li>
       </ul>
-      {/* <div></div> */}
     </StyledSocial>
   );
 };

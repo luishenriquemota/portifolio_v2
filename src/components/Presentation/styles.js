@@ -25,17 +25,17 @@ export const StyledPresentation = styled.section`
     color: var(--grey1);
   }
 
-  button {
+  a {
     width: 50%;
-    height: 30px;
-    font-weight: 600;
-    background-color: transparent;
-    color: var(--green1);
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
     border: 1px solid var(--green1);
     border-radius: 4px;
-    margin-top: 20px;
+    color: var(--green1);
     cursor: pointer;
-
     :hover {
       background-color: var(--green1);
       color: #ffffff;
@@ -50,7 +50,7 @@ export const StyledPresentation = styled.section`
       width: min(90%, 850px);
     }
 
-    button {
+    a {
       width: 40%;
       font-size: 15px;
     }
