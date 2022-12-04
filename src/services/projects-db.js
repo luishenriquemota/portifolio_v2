@@ -2,7 +2,7 @@ import ecoleta from "../assets/projects-images/Ecoleta.png";
 import hamburgueriaKenzie from "../assets/projects-images/Hamburgueriakenzie.png";
 import nukenzie from "../assets/projects-images/NuKenzie.png";
 import kenziehub from "../assets/projects-images/KenzieHub.png";
-import api_logo from "../assets/projects-images/api.png";
+import api_logo from "../assets/projects-images/API.jpg";
 
 export const projects = [
   {
@@ -13,7 +13,14 @@ export const projects = [
     title: "Ecoleta",
     description:
       "Site projetado em grupo como projeto final do curso de front-end, a proposta é um site que conecta pessoas que querem reciclar com pessoas ou empresas que reciclam. ",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Styled-Components",
+      "axios",
+    ],
   },
   {
     type: "Front-End",
@@ -23,7 +30,14 @@ export const projects = [
     title: "KenzieHub",
     description:
       "gerenciador de tecnologias aprendidas, nela podemos colocar o que ja aprendemos e o nivel de conhecimento que temos sobre ela.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Styled-components",
+      "axios",
+    ],
   },
   {
     type: "Front-End",
@@ -50,8 +64,18 @@ export const projects = [
     git: "https://github.com/luishenriquemota/Easy-iFinance",
     image: api_logo,
     title: "Easy iFinance",
-    description: "API Financeiro",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    description:
+      "Uma API de finanças desenvolvido em grupo, para gerenciar nossos gastos. Nela podemos cadastrar um usuário, e cada usuário quando logado vai poder cadastrar seus cartões, e registar transações feitas por esse cartão, também pode registrar valores que ele recebeu.",
+    technologies: [
+      "Node",
+      "Express",
+      "JavaScript",
+      "TypeScript",
+      "TypeORM",
+      "PostgreSQL",
+      "SQlite",
+      "Jest",
+    ],
   },
   {
     type: "Back-End",
@@ -59,13 +83,12 @@ export const projects = [
     image: api_logo,
     title: "Think Wiki",
     description:
-      "Uma API para controlar os dados de um Wikipedia que aborda diversos nichos, onde podemos criar uma postagem com o tema que queremos, interagir com a postagem de alguém, entre outras coisas. ",
+      "Uma API que gerencia os dados de uma Wikipedia, que aborda diversos assuntos, nela podemos cadastrar um usuário, e o usuário quando logado poderá criar postagens sobre um assunto que ele goste, e outras pessoas poderão interagir com esta postagem.",
     technologies: [
       "Python",
       "Django",
       "Django-Rest-Framework",
       "PostgreSQL",
-      "Heroku",
       "Coverage",
     ],
   },

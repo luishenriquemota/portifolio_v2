@@ -1487,6 +1487,14 @@ react-only-when@^1.0.2:
   resolved "https://registry.npmjs.org/react-only-when/-/react-only-when-1.0.2.tgz"
   integrity sha512-agE6l3L6bqaVuwNtjihTQ36M+VBfPS63KOzcNL4ZTmlwSxQPvhzIqmBWfiol0/wLYmKxCcBqgXkEJpvj5Kob8Q==
 
+react-particles@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/react-particles/-/react-particles-2.5.3.tgz#eb6d50e98054c74bc523aacb7cfa37d1c106c237"
+  integrity sha512-TREHHCvJiYYFuuJ43zY3HBafIt2CrD4JK9Nm4BZ+IoWgumEptUR7xZDeYGqjjsR4Dih4zHG087iMusHKO4lNxw==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    tsparticles-engine "^2.5.2"
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"

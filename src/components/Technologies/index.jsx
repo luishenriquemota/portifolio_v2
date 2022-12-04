@@ -1,4 +1,4 @@
-import { CardTech } from "../Card_Tech";
+import { CardTech } from "../Tech-Card";
 import { StyledTechs } from "./style";
 import { skills } from "../../services/skills-db";
 export const Technologies = () => {

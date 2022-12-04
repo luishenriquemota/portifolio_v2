@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledProjectCard = styled.div`
   width: 100%;
   position: relative;
-  padding-top: 80%;
+  padding-top: 85%;
   background-image: url(${(props) => props.image});
   background-size: 100% 100%;
   margin: 0 5px;

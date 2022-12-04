@@ -22,7 +22,6 @@ html{
 }
 
 .App{
-  min-height: 100vh;
   color: var(--whiteFixed);
   font-family: 'Poppins', sans-serif;
 

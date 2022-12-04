@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StyledPresentation = styled.section`
-  min-height: calc(100vh - 100px);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 
   h1 {
     font-size: min(60px, 4.8vw);
@@ -12,7 +13,6 @@ export const StyledPresentation = styled.section`
   }
 
   p:first-of-type {
-    padding-top: 60px;
     margin: 0;
     font-size: min(30px, 3.2vw);
     color: var(--green1);
@@ -28,6 +28,7 @@ export const StyledPresentation = styled.section`
   a {
     width: 50%;
     padding: 5px;
+    margin-top: 15px;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
