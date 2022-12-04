@@ -7,6 +7,7 @@ export const StyledFooter = styled.footer`
   align-items: center;
   gap: 30px;
   padding: 20px;
+  position: relative;
 
   div {
     display: flex;

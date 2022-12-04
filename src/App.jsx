@@ -11,15 +11,15 @@ import { ParticlesComponent } from "./components/particles";
 function App() {
   return (
     <div className="App">
+      <ParticlesComponent />
       <Header />
       <Presentation />
       <About />
       <Technologies />
       <Projects />
-      <SwipeableEdgeDrawer />
       <Footer />
-      <NavSocial />
-      <ParticlesComponent />
+      <SwipeableEdgeDrawer />
+      {/* <NavSocial /> */}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { HiMenu } from "react-icons/hi";
 import { UseOpenModal } from "../../providers/ProviderOpenModal";
 import { StyledHeader } from "./styles";
-import image from "../../assets/Group 1.svg";
+import image from "../../assets/lh-logo.svg";
 
 export const Header = () => {
   const { setOpenModal } = UseOpenModal();

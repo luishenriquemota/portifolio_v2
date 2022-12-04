@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-  /* min-height: calc(100vh - 100px); */
-  min-height: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   h2 {
     font-size: max(30px, 2.2vw);
     border-bottom: 1px solid var(--green1);
-    margin-bottom: 60px;
-    padding-bottom: 15px;
     padding-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
   }
 
   .content {
@@ -36,9 +36,6 @@ export const StyledAbout = styled.section`
   }
 
   @media (min-width: 768px) {
-    min-height: 100vh;
-    position: relative;
-
     .content > .text {
       width: 60%;
       font-size: max(18px, 1.1vw);
