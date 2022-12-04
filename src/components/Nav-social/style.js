@@ -2,13 +2,8 @@ import styled from "styled-components";
 
 export const StyledSocial = styled.nav`
   position: fixed;
-  /* position: absolute; */
-  /* z-index: -1; */
-  margin-top: 650px;
-  padding-left: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* position: fixed; */
+  bottom: 0;
+  margin-left: 3vw;
 
   ul {
     display: flex;
@@ -18,23 +13,18 @@ export const StyledSocial = styled.nav`
     ::after {
       content: "";
       width: 1px;
-      height: 150px;
-      background-color: red;
+      height: 100px;
+      background-color: var(--grey1);
     }
   }
 
-  ul > li {
-    font-size: 20px;
+  ul > li > svg {
+    font-size: min(25px, 3.6vw);
+    cursor: pointer;
+    color: var(--grey1);
     :hover {
-      /* font-size: 21px; */
-      padding-bottom: 2px;
-      color: var(--verde1);
+      color: var(--green1);
+      transform: scale(1.1);
     }
-  }
-
-  div {
-    width: 1px;
-    height: 90px;
-    background-color: red;
   }
 `;

@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <StyledProjects id="projects" className="container small">
       <h2>Projetos</h2>
-      <Carousel className="carousel" showArrows={false}>
+      <Carousel className="carousel" showArrows={true}>
         {projects.map((item, index) => (
           <ProjectCard
             key={index}

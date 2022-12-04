@@ -10,9 +10,7 @@ export const ParticlesComponent = () => {
     await loadFull(engine);
   };
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
     <Particles
@@ -37,15 +35,15 @@ export const ParticlesComponent = () => {
             value: "#ffffff",
           },
           shape: {
-            // type: "circle",
+            type: "circle",
           },
           opacity: {
             value: 0,
             random: false,
             anim: {
-              enable: false,
-              speed: 3,
-              opacity_min: 0.1,
+              enable: true,
+              speed: 2,
+              opacity_min: 0,
               sync: false,
             },
           },

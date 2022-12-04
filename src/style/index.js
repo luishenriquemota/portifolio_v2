@@ -13,6 +13,26 @@ html{
   scroll-behavior: smooth;
 }
 
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #9ca3af #00111c;
+  }
+
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #00111c;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9ca3af;
+    border-radius: 10px;
+    border: 3px solid #9ca3af;
+  }
+
 :root{
   --whiteFixed: #efefef;
   --brand1: #00111c;

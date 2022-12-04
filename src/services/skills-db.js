@@ -41,10 +41,10 @@ export const skills = [
     image: nodejs,
     name: "NODE.JS",
   },
-  // {
-  //   image: express,
-  //   name: "EXPRESS",
-  // },
+  {
+    image: express,
+    name: "EXPRESS",
+  },
   {
     image: python,
     name: "PYTHON",
@@ -61,8 +61,8 @@ export const skills = [
     image: docker,
     name: "DOCKER",
   },
-  // {
-  //   image: redux,
-  //   name: "REDUX",
-  // },
+  {
+    image: redux,
+    name: "REDUX",
+  },
 ];

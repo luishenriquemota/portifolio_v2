@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const StyledProjects = styled.section`
-  /* min-height: calc(100vh - 100px); */
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
   position: relative;
 
   h2 {
@@ -13,8 +12,25 @@ export const StyledProjects = styled.section`
     padding-top: 80px;
   }
 
+  .rec.rec-arrow {
+    visibility: hidden;
+  }
+
+  .rec.rec-dot {
+    border: 2px solid #ffffff;
+  }
+
+  .rec-dot_active {
+    background-color: var(--green1);
+    box-shadow: 0 0 1px 3px var(--green1);
+  }
+
   @media (min-width: 768px) {
-    .carousel {
+    .rec.rec-arrow {
+      visibility: visible;
+      :hover {
+        background-color: var(--grey1);
+      }
     }
   }
 `;

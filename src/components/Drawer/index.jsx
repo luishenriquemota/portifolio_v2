@@ -77,11 +77,6 @@ function SwipeableEdgeDrawer(props) {
                 Projetos
               </a>
             </li>
-            <li>
-              <a onClick={() => setOpenModal(false)} href="#contact">
-                Contato
-              </a>
-            </li>
           </ul>
         </StyledMenu>
       </SwipeableDrawer>

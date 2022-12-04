@@ -1,6 +1,5 @@
 import { About } from "./components/About";
 import SwipeableEdgeDrawer from "./components/Drawer";
-import { Footer } from "./components/footer";
 import { Header } from "./components/Header";
 import { Presentation } from "./components/Presentation";
 import { Projects } from "./components/Projects";
@@ -17,9 +16,8 @@ function App() {
       <About />
       <Technologies />
       <Projects />
-      <Footer />
       <SwipeableEdgeDrawer />
-      {/* <NavSocial /> */}
+      <NavSocial />
     </div>
   );
 }

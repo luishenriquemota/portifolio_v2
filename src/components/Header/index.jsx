@@ -22,9 +22,6 @@ export const Header = () => {
           <li>
             <a href="#projects">Projetos</a>
           </li>
-          <li>
-            <a href="#contact">Contato</a>
-          </li>
         </ul>
         <HiMenu className="menu" onClick={() => setOpenModal(true)} />
       </nav>
